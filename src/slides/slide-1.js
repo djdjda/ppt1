@@ -45,6 +45,10 @@ window.slideDataMap.set(1, `
           <span class="font-mono text-[13px]" style="color: #b07cd8;">幂级数</span>
         </div>
       </div>
+      <div class="mt-6 text-center" style="color: rgba(212,168,83,0.7); font-size: 14px; line-height: 2;">
+        组长：唐颢轩（文稿）<br>
+        组员：胡腾（PPT）、吴楚越（剪辑）、颜思怡（视频录制）
+      </div>
     </div>
     <!-- MyGO 角色 -->
     <div class="mygo-char mygo-char-left"><img src="/characters/saki-smile.png" alt="saki"></div>

@@ -1,9 +1,0 @@
-name = "ppt1"
-compatibility_date = "2026-06-08"
-
-[build]
-command = "npm run build"
-cwd = "."
-
-[site]
-bucket = "./dist"

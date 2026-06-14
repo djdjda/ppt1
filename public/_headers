@@ -1,0 +1,19 @@
+# ============================================
+# Cloudflare Pages Security Headers
+# Site: mujica.buzz
+# ============================================
+
+# Block .git directory - deny all indexing and caching
+/.git/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store, no-cache
+  Pragma: no-cache
+
+# Global security headers for all pages
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'

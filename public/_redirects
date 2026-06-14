@@ -1,0 +1,3 @@
+# Block .git directory access - return 404
+/.git /404.html 404
+/.git/* /404.html 404

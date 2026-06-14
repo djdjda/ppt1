@@ -1,3 +1,0 @@
-# Block .git directory access - redirect to 404 page
-/.git /404.html 302
-/.git/* /404.html 302
